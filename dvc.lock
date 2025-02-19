@@ -57,8 +57,8 @@ stages:
       size: 222133
     - path: src/model_evl.py
       hash: md5
-      md5: 47f7b408c3f71245e977d008f5c67b1f
-      size: 1436
+      md5: aa79e93507bdb47c9d7d06894072967e
+      size: 1391
     outs:
     - path: metrics.json
       hash: md5

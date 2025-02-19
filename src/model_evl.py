@@ -28,8 +28,7 @@ def main():
     test_df = load_data(test_path)
 
     # Drop Unnamed Column if Exists
-    if 'Unnamed: 0' in test_df.columns:
-        test_df = drop_column(test_df, 'Unnamed: 0')
+    test_df = drop_column(test_df, 'Unnamed: 0')
 
     # Extract X and Y
     x_test, y_test = x_y_values(test_df, 'tip')
